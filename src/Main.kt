@@ -6,7 +6,7 @@ class Coche(
     val numCaballos: Int?,
     val numPuertas: Int?
 ) {
-    var matricula = "0000AAA"
+    var matricula = matricula
         get() = field
         set(value) {
             require(matricula.length == 7)
